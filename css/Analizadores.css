@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.enlace_a{
+    background-color: red;
+}
+.titulo{
+    background-color: rgb(6, 114, 114);
+}
+.tabla1 {
+    margin: 20px; 
+    padding: 50px;  
+    width: 100%;
+    border-collapse: collapse;
+    display: grid;
+    
+}
+.tabla2{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.mod{
+    padding: 0;
+}
+.mod td{
+    border: none;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    height: 100%;
+    width: 100px;
+    border: 1px solid black;
+    
+}
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.enlace_a{
+    background-color: red;
+}
+.enlace_b{
+    background-color: cyan;
+}
+.DL{
+    background-color: aquamarine;
+}
+.Remotas{
+    background-color: green;
+}
+.Index{
+    background-color:magenta;
+}
+.pegao{
+    background-color: beige;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.enlace{
+    height: 100%;
+}
