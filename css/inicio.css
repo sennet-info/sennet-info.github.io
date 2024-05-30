@@ -8,17 +8,28 @@ body{
     
     
 }
-section{
+.imagenes{
     height: 100vh;
     width: 100%;
     display: flex;
     flex-direction:row ;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
+.nombres{
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nombres div {
+    position: relative;
+    top: 275px;
+    left: 100px;
+}
 div{
-    height: 100%;
-    width: calc(100% / 3);
+    height: 50%;
+    width: 25%;
     
 }
 a{
@@ -28,12 +39,27 @@ a{
     height: 100%;
     width: 100%;
 }
-.DL{
-    background-color: aqua;
+
+.contenedor {
+    width: 300px; /* Ajusta el tamaño del div según tus necesidades */
+    height: 200px; /* Ajusta el tamaño del div según tus necesidades */
+     /* Oculta cualquier contenido que se salga del div */
+    position: relative;
 }
-.Analizadores{
-    background-color: red;
+
+.contenedor img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+     /* Hace que la imagen cubra todo el div */
+    transition: transform 0.3s ease; /* Añade una transición suave */
 }
-.Remotas{
-    background-color: green;
+
+.contenedor:hover img {
+    transform: scale(1.1); /* Agranda la imagen un 10% al pasar el ratón */
+}
+p{
+    position: absolute;
+    bottom: 110%;
+    
 }

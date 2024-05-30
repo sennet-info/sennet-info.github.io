@@ -27,9 +27,12 @@ body{
     
 }
 .tabla2{
+    height: 100%;
     width: 100%;
     padding: 0;
     margin: 0;
+    display: flex;
+    justify-content: space-around;
 }
 .mod{
     padding: 0;
@@ -39,7 +42,9 @@ body{
 }
 
 th, td {
-    border: 1px solid black;
+    height: 100%;
+    position: relative;
+    border: 5px groove black;
     padding: 8px;
     text-align: center;
 }
@@ -80,8 +85,20 @@ a{
     justify-content: space-between;
     align-items: center;
     margin-bottom: 30px;
+    z-index: 1;
 }
 .enlace{
     height: 100%;
 }
+
+
+.caja{
+    position: absolute;
+    top: calc(0% - 5px);
+    right: 98%;
+    width: 5px;
+    height: 108%;
+    background: linear-gradient(to left, rgb(80, 79, 79) 50%, black 50%);
+   
+  }
 
