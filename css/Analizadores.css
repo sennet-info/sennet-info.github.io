@@ -36,11 +36,14 @@ body{
 }
 
 th, td {
-    border: 1px solid black;
+    border: 5px groove black;
     padding: 8px;
     text-align: center;
 }
-
+img{
+    height: 100%;
+    width: 70%;
+}
 section{
     display: flex;
     justify-content: center;

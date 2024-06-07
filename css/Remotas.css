@@ -9,6 +9,10 @@ body{
     align-items: center;
     flex-direction: column;
 }
+img{
+    height: 100%;
+    width: 70%;
+}
 .enlace_a{
     background-color: red;
 }
@@ -39,7 +43,7 @@ body{
 }
 
 th, td {
-    border: 1px solid black;
+    border: 5px groove black;
     padding: 8px;
     text-align: center;
 }

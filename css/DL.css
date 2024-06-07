@@ -10,7 +10,7 @@ body{
     flex-direction: column;
 }
 .enlace_a{
-    background-color: rgba(69, 189, 63, 0.585);
+    background-color: cyan;
 }
 .enlace_b{
     background-color: cyan;
@@ -65,6 +65,10 @@ a{
     align-items: center;
     height: 100%;
     width: 100%;
+}
+img{
+    height: 100%;
+    width: 70%;
 }
 .Remotas{
     background-color: green;
