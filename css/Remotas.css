@@ -66,16 +66,16 @@ a{
     width: 100%;
 }
 .Analizadores{
-    background-color: red;
+    background-color: white;
 }
 .DL{
-    background-color: aquamarine;
+    background-color: white;
 }
 .Index{
-    background-color:magenta;
+    background-color:white;
 }
 .pegao{
-    background-color: beige;
+    background-color: #343a40;
     width: 100%;
     height: 50px;
     position: fixed;
@@ -84,6 +84,7 @@ a{
     justify-content: space-between;
     align-items: center;
     margin-bottom: 30px;
+    z-index: 1;
 }
 .enlace{
     height: 100%;

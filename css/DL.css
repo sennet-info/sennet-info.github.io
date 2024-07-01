@@ -71,16 +71,16 @@ img{
     width: 70%;
 }
 .Remotas{
-    background-color: green;
+    background-color: white;
 }
 .Analizadores{
-    background-color: red;
+    background-color: white;
 }
 .Index{
-    background-color:magenta;
+    background-color:white;
 }
 .pegao{
-    background-color: beige;
+    background-color: #343a40;
     width: 100%;
     height: 50px;
     position: fixed;
