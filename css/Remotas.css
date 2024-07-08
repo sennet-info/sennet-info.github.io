@@ -30,11 +30,7 @@ img{
     display: grid;
     
 }
-.tabla2{
-    width: 100%;
-    padding: 0;
-    margin: 0;
-}
+
 .mod{
     padding: 0;
 }
@@ -42,11 +38,6 @@ img{
     border: none;
 }
 
-th, td {
-    border: 5px groove black;
-    padding: 8px;
-    text-align: center;
-}
 section{
     display: flex;
     justify-content: center;

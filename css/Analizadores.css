@@ -20,14 +20,9 @@ body{
     padding: 50px;  
     width: 100%;
     border-collapse: collapse;
-    display: grid;
-    
+    display: grid;    
 }
-.tabla2{
-    width: 100%;
-    padding: 0;
-    margin: 0;
-}
+
 .mod{
     padding: 0;
 }
@@ -35,11 +30,6 @@ body{
     border: none;
 }
 
-th, td {
-    border: 5px groove black;
-    padding: 8px;
-    text-align: center;
-}
 img{
     height: 100%;
     width: 70%;
